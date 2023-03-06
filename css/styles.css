@@ -8,10 +8,6 @@
     --title-colour: #2E2F42;
     --footer-text: #E7E9FC;
     --footer-logo: #F4F4FD;
-    
-
-   
-
 }
 
 body {
@@ -191,6 +187,7 @@ background: var(--primary-background);
     background: var(--accent-btn);
     color: var(--white-text);
 }
+/**------------Gallery------------------*/
 
 .gallery-list-item .section-title {
     font-weight: 500;
