@@ -56,8 +56,20 @@ color: var(--accent-btn)
     color: var(--accent-btn)
 }
 
+.header-contacts-list {
+    font-style: normal;
+}
+
+.header-link-contact {
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: var(--primary-text-colour);
+}
 
 /**------------About ------------------*/
+
+
 .about-title {
     font-weight: 700;
     font-size: 56px;
@@ -168,13 +180,28 @@ color: var(--footer-logo);
 
 
 /**------------Portfolio------------------*/
-.nav-btn-list .btn {
-    background: var(--footer-logo);
-    color: var(--accent-colour);
+
+.btn-secondary {
+    font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 1.5;
+        display: flex;
+        align-items: center;
+        text-align: center;
+        letter-spacing: 0.04em;
+        color: var(--accent-colour);
+        cursor: pointer;
 }
 
-.nav-btn-list .btn:hover,
-.nav-btn-list .btn:focus {
+
+.btn-secondary {
+    background: var(--footer-logo);
+}
+
+.btn-secondary:hover,
+.btn-secondary:focus {
     background: var(--accent-btn);
     color: var(--white-text);
 }
