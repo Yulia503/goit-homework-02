@@ -1,0 +1,210 @@
+:root {
+    --primary-background: #FFFFFF;
+    --dark-bg: #2E2F42;
+    --accent-colour: #4D5AE5;;
+    --accent-btn: #404BBF;
+    --primary-text-colour:#434455;
+    --white-text: #ffffff;
+    --title-colour: #2E2F42;
+    --footer-text: #E7E9FC;
+    --footer-logo: #F4F4FD;
+    
+
+   
+
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    color: var(--primary-text-colour);
+    background: var(--primary-background);
+}
+
+.link {
+    text-decoration: none;
+}
+.list {
+    list-style: none;
+}
+
+/**------------Header ------------------*/
+
+.header-logo {
+    font-family: 'Raleway';
+     font-weight: 800;
+     font-size: 18px;
+     line-height: 1.33;
+     display: flex;
+     align-items: center;
+     letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: var(--title-colour);
+}
+.first-logo {
+    color: var(--accent-colour);
+}
+
+.header-link {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.55;
+    letter-spacing: 0.02em;
+    color: var(--title-colour);
+}
+
+.header-link:hover,
+.header-link:focus {
+color: var(--accent-colour);
+}
+
+.header-link.current {
+    color: var(--accent-colour)
+}
+
+.contacts-email {
+    font-size: 16px;
+    line-height: 1.55;
+    letter-spacing: 0.02em;
+    color: var(--primary-text-colour);
+}
+
+.contacts-tel { 
+    font-size: 16px;
+    line-height: 1.55;
+    letter-spacing: 0.02em;
+    color: var(--primary-text-colour);
+}
+
+.contacts-email:hover,
+.contacts-email:focus {
+    color: var(--accent-colour);
+}
+
+.contacts-tel:hover,
+.contacts-tel:focus {
+    color: var(--accent-colour);
+}
+    
+
+/**------------About ------------------*/
+.about-title {
+    font-weight: 700;
+    font-size: 56px;
+    line-height: 1.07;
+    text-align: center;
+    letter-spacing: 0.02em;
+    color: var(--white-text);
+}
+
+.about {
+    background: var(--title-colour);
+}
+
+.btn. { 
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.50;
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.04em;
+   
+}
+
+.btn.primary {
+    color: var(--white-text);
+    background: var(--accent-colour);
+}
+
+.btn.primary:hover,
+.btn.primary:focus { 
+background:var(--accent-btn)
+}
+
+/**-----------Advantages, What are we doing, Team -------------*/
+
+.section-subtitle { 
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.20;
+    letter-spacing: 0.02em;
+    color: var(--title-colour);
+}
+
+.section-text { 
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.50;
+    letter-spacing: 0.02em;
+    color: var(--primary-text-colour);
+}
+
+/**-----------Our team -------------*/
+
+.section-team {
+    background: var(--footer-logo);
+}
+
+.section-list .team-item { 
+background: var(--primary-background);
+}
+
+/**------------Footer-----------------*/
+
+.section-footer { 
+    background: var(--dark-bg);
+}
+
+.footer-logo { 
+    font-family: 'Raleway';
+        font-style: normal;
+        font-weight: 800;
+        font-size: 18px;
+        line-height: 21px;
+        /* identical to box height */
+        display: flex;
+        align-items: center;
+        letter-spacing: 0.03em;
+        text-transform: uppercase;
+    
+        color: var(--footer-logo);
+
+}
+
+
+.footer-text {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0.02em;
+    color: var(--footer-text);
+}
+
+
+/**------------Portfolio------------------*/
+.nav-btn-list .btn {
+    background: var(--footer-logo);
+    color: var(--accent-colour);
+}
+
+.nav-btn-list .btn:hover,
+.nav-btn-list .btn:focus {
+    background: var(--accent-btn);
+    color: var(--white-text);
+}
+
+.gallery-list-item .section-title {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.20;
+    letter-spacing: 0.02em;
+    color: var(--title-colour)
+}
+
+.gallery-list-item .secondary-text {
+    font-weight: 400;
+        font-size: 16px;
+        line-height: 1.50;
+        letter-spacing: 0.02em;
+        color: var(--footer-logo);
+        background: var(--accent-colour);
+}
