@@ -1,6 +1,5 @@
 :root {
     --primary-background: #FFFFFF;
-    --dark-bg: #2E2F42;
     --accent-colour: #4D5AE5;;
     --accent-btn: #404BBF;
     --primary-text-colour:#434455;
@@ -57,13 +56,6 @@ color: var(--accent-btn)
     color: var(--accent-btn)
 }
 
-.header-a-link {
-    font-style: normal;
-}
-.header-contacts-list .header-link {
-font-style: normal;
-}
-    
 
 /**------------About ------------------*/
 .about-title {
@@ -79,7 +71,7 @@ font-style: normal;
     background: var(--title-colour);
 }
 
-.btn. { 
+.btn-primary { 
     font-family: "Roboto", sans-serif;
     font-weight:500;
     font-size: 16px;
@@ -91,22 +83,22 @@ font-style: normal;
    
 }
 
-.btn.primary {
+.btn-primary {
     color: var(--white-text);
     background: var(--accent-colour);
 }
 
-.btn.primary:hover,
-.btn.primary:focus { 
+.btn-primary:hover,
+.btn-primary:focus { 
 background:var(--accent-btn)
 }
 
-/**-----------Advantages, What are we doing, Team -------------*/
+/**-----------Advantages-------------*/
 
 .section-subtitle { 
     font-weight: 500;
     font-size: 20px;
-    line-height: 1.20;
+    line-height: 1.2;
     letter-spacing: 0.02em;
     color: var(--title-colour);
 }
@@ -114,12 +106,24 @@ background:var(--accent-btn)
 .section-text { 
     font-weight: 400;
     font-size: 16px;
-    line-height: 1.50;
+    line-height: 1.5;
     letter-spacing: 0.02em;
     color: var(--primary-text-colour);
 }
 
-/**-----------Our team -------------*/
+/**-----------What are we doing, Our team -------------*/
+
+.section-work-title {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.11;
+    text-align: center;
+    letter-spacing: 0.02em;
+    text-transform: capitalize;
+    color: var(--title-colour);
+}
+
+
 
 .section-team {
     background: var(--footer-logo);
@@ -132,7 +136,7 @@ background: var(--primary-background);
 /**------------Footer-----------------*/
 
 .section-footer { 
-    background: var(--dark-bg);
+    background: var(--title-colour);
 }
 
 .footer-logo { 
@@ -146,11 +150,13 @@ background: var(--primary-background);
         align-items: center;
         letter-spacing: 0.03em;
         text-transform: uppercase;
-    
         color: var(--footer-logo);
 
 }
 
+.footer-first-logo {
+color: var(--footer-logo);
+}
 
 .footer-text {
     font-weight: 400;
