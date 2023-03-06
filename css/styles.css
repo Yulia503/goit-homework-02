@@ -52,9 +52,7 @@ body {
 color: var(--accent-btn)
 }
 
-.header-link.current {
-    color: var(--accent-btn)
-}
+
 
 .header-contacts-list {
     font-style: normal;
@@ -66,6 +64,13 @@ color: var(--accent-btn)
     letter-spacing: 0.02em;
     color: var(--primary-text-colour);
 }
+
+.header-link-contact:hover,
+.header-link-contact:focus {
+    color: var(--accent-btn);
+}
+
+
 
 /**------------About ------------------*/
 
